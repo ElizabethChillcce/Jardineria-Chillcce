@@ -1,10 +1,11 @@
 import { Nabvar } from "./components/Nabvar";
-
+import logo from "./images/logo.png";
 
 function App() {
   return (
    <>
    <Nabvar />
+   <img src={logo} className="laptop" />
    <h1>Jardineria Chillcce</h1>
    </>
   );
