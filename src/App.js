@@ -1,4 +1,4 @@
-import { Nabvar } from "./components/Nabvar";
+import { Nabvar } from "./components/Navbar/Nabvar";
 import logo from "./images/logo.png";
 
 function App() {
