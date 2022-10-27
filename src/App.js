@@ -1,4 +1,24 @@
-import { Nabvar } from "./components/Navbar/Nabvar";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Home } from '../src/components/Home/Home.jsx';
+import { About } from '../src/components/About/About.jsx';
+import { Projects} from '../src/components/Projects/Projects.jsx';
+
+function App() {
+  return(
+    <BrowserRouter>
+     <Routes>
+     <Route path="/" element={<Home/>} />
+     <Route path="/about" element={<About/>} />
+     <Route path="/projects" element= {<Projects/>} />
+     </Routes>
+    </BrowserRouter>
+
+  );
+}
+
+export default App;
+
+/* import { Nabvar } from "./components/Navbar/Nabvar";
 import logo from "./images/logo.png";
 
 function App() {
@@ -11,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; */
