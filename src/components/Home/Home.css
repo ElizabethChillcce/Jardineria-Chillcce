@@ -1,0 +1,12 @@
+Footer {
+    background-color: rgb(20, 161, 20);
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-style {
+    color:white;
+}
