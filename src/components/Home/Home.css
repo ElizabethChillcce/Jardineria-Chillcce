@@ -1,5 +1,6 @@
 Footer {
-    background-color: rgb(20, 161, 20);
+    background-color: #336600;
+    /* background-color: #41960a; */
 }
 
 .container-footer{
@@ -9,4 +10,9 @@ Footer {
 
 .footer-style {
     color:white;
+}
+
+.title{
+    text-align: center;
+    color: #49BF04;
 }
